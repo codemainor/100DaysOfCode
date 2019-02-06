@@ -7,20 +7,22 @@ Cycled through 4 administrators bi-weekly, this is a democratic approach towards
 
 ## Supported Languages
 
-In no order of prioritization, these are the following languages the challenge currently accepts as valid solutions:
+In no order of prioritization, these are the following languages the challenge currently accepts as valid solutions(sorted alphabetically):
 
-- Java
-- Python
+- C
 - C#
 - C++
-- Javascript
+- Clojure
+- Dart
 - Golang
+- Java
+- Javascript
+- Kotlin
+- Python
 - Ruby
 - Rust
-- Kotlin
-- Typescript
-- Clojure
 - Scala
+- Typescript
 
 ## Event Timeline
 
