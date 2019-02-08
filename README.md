@@ -1,5 +1,5 @@
 [![Gitter Chat](https://img.shields.io/gitter/room/CodeMainor-100DaysOfCode/100DaysOfCode.svg?style=for-the-badge)](https://gitter.im/CodeMainor-100DaysOfCode/community)
-[![GitHub license](https://img.shields.io/github/license/codemainor/100DaysOfCode.svg?style=for-the-badge)](https://github.com/codemainor/100DaysOfCoding/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/codemainor/100DaysOfCode.svg?style=for-the-badge)](https://github.com/codemainor/100DaysOfCode/blob/master/LICENSE)
 
 # :rocket: Welcome to 100DaysOfCode! :rocket:
 
