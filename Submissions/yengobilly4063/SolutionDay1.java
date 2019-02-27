@@ -10,20 +10,11 @@ public class SolutionDay1 {
 
   public static void main(String[] args) {
 
-    boolean quit = false;
+    String sentence = getSentence();
+    String[] wordArray = getEachWord(sentence);
+    ArrayList<String> wordsInList = storeWordsInArrayLists(wordArray);
+    getLongestWord(wordsInList);
 
-    while(!quit){
-      int choice = getChoice();
-      switch (choice){
-        case 0:
-          System.out.println("Ending program");
-          quit = true;
-          break;
-        case 1:
-          getLongestWord(storeWordsInArrayLists(getEachWord(getSentence())));
-          break;
-      }
-    }
 
   }
 
@@ -51,7 +42,6 @@ public class SolutionDay1 {
     ArrayList<String> arrayListOfWords = new ArrayList<String>();
 
     for (String word : splitWords){
-      System.out.println("Storing word " + word + " | Length :" + word.length());
       arrayListOfWords.add(word);
     }
 
@@ -66,30 +56,9 @@ public class SolutionDay1 {
        }
      }
     System.out.println("=========================================");
-    System.out.println("First Longest word is " + largestWord );
+    System.out.println("Output: " + largestWord );
     System.out.println("=========================================");
   }
 
-
-
-  ///Just to get choice values and to restrict the inout to numbers
-  private static int getChoice() {
-
-    boolean stop = false;
-    while (!stop) {
-      System.out.println("(1=Play || 0=quit)");
-      System.out.print("Enter Choice :");
-      boolean hasNextInt = scan.hasNextInt();
-      if (hasNextInt) {
-        int choice = scan.nextInt();
-        scan.nextLine();
-        stop = true;
-        return choice;
-      }
-      System.out.println("Invalid input\n");
-      scan.nextLine();
-    }
-    return -1;
-  }
 
 }
