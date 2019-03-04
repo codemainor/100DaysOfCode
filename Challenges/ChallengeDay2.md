@@ -1,7 +1,7 @@
 
 # :rocket: Daily Challenges :rocket:
 
-### Challenge Day 1:
+### Challenge Day 2:
 Create a program that takes a **sentence** as an **input** from the **user** and then returns the **NUMBER OF VOWELS** in that sentence. Ignore any and all **punctuations**.
 
 Tips: Vowels in the english alphabet are, **a, e, i, o, u**
