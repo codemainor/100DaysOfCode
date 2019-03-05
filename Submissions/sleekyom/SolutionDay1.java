@@ -10,7 +10,10 @@ public class SolutionDay1 {
 
         String[] array = word.split(" ");
 
+        array.toString().replaceAll("[^\\w\\s]","");
+
         System.out.println("The longest string in your input is : " + longestString(array));
+
 
     }
 
@@ -22,6 +25,7 @@ public class SolutionDay1 {
                 index = i;
                 elementLength = array[i].length();
             }
+
         }
         return array[index];
     }
