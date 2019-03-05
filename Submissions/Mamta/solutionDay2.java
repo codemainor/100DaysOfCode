@@ -5,7 +5,7 @@ public class CountVowels {
   public static void main(String[] args) {
     Scanner sc= new Scanner(System.in);
     System.out.println(" enter a sentence");
-    String sentence=sc.nextLine();
+    String sentence=sc.nextLine().toLowerCase();
     int count=0;
     int length= sentence.length();
     for(int i=0;i<length;i++)
